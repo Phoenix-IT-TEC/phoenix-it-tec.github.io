@@ -1,0 +1,14 @@
+import VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkinComponent from '../components/VerticalAnchorsMenu/viewer/skinComps/VerticalAnchorsMenuSymbolWithHiddenTextSkin/VerticalAnchorsMenuSymbolWithHiddenTextSkin.skin';
+import VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkinController from '../components/VerticalAnchorsMenu/viewer/VerticalAnchorsMenu.controller';
+
+
+const VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkin = {
+  component: VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkinComponent,
+  controller: VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkinController
+};
+
+
+export const components = {
+  ['VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkin']: VerticalAnchorsMenu_VerticalAnchorsMenuSymbolWithHiddenTextSkin
+};
+
